@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/auth/currentUser
+
+###
+POST http://localhost:3000/client
+Content-Type: application/json
+
+{
+   "name": "Test",
+    "id": "this_is_my_id",
+    "secret": "this_is_my_secret",
+    "userId": "test1234"
+}
